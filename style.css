@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #282d33;
+}
+.navbar {
+  display: flex;
+  padding: 0 25px 0 25px;
+  height: 48px;
+  background-color: #fc4d55;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.navbar img {
+  background-color: #fc4d55;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+input {
+  height: 30px;
+  width: 200px;
+  background-color: #fc4d55;
+  border: none;
+  outline: none;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.header {
+  color: #e3dfdc;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.all-movies {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  margin: 5px;
+  width: 200px;
+}
+
+.poster img {
+  height: 300px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.poster img:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.rating {
+  display: inline;
+  /* background-color: greenyellow; */
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  position: relative;
+  left: 35%;
+  top: 10px;
+  transform: translateX(-50%);
+  font-weight: bolder;
+  border-radius: 20px;
+}
+
+.title {
+  color: #e3dfdc;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.type {
+  color: #bab6b8;
+  font-size: small;
+}
+
+footer {
+  background-color: #fc4d55;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+footer a {
+  color: black;
+}
+footer a:first-child {
+  font-size: large;
+  color: red;
+}
